@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 7em;
+  padding: 4em 0;
+}
+
+.content {
+  max-width: 570px;
+  width: 100%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 0;
+    color: #9e6dc2;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fbf6ff;
+    max-width: 480px;
+  }
+
+  a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #9E6DC2;
+    display: flex;
+  }
+
+  a::after {
+    content: url("../../../public/assets/svg/arrow-right.svg");
+   margin-left: 0.5em;
+  }
+
+  a:hover {
+    transition: 0.2s;
+    opacity: 0.8;
+  }
+}
+
+.imagem {
+  max-width: 570px;
+  height: 346px;
+  width: 100%;
+}

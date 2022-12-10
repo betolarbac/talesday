@@ -1,10 +1,12 @@
 import Header from "../components/header/header"
-import  styles  from "../styles/home.module.scss"
+import Hero from "../components/hero/hero"
+import  styles  from "../styles/Home.module.scss"
 
 export default function Home() {
   return (
     <div className={styles.content}>
       <Header />
+      <Hero />
     </div>
   )
 }
